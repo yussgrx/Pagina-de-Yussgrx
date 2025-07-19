@@ -1,0 +1,106 @@
+/* recet basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tipografia y fondo */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #000, #1c1c1c);
+    color: white;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* emcabezado */
+header {
+    background: linear-gradient(to right, #ffffff, #bbbbbb);
+    color: #000;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 5px solid #000;
+
+}
+header h1 {
+    font-size: 2.8rem;
+}
+
+header p {
+font-size: 1.2rem;
+margin-top: 10px;
+}
+
+/* descripcion principal */ 
+.descripcion-principal {
+    background: linear-gradient(to right, #1c1c1c, #000);
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ddd;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+/* Secciones Generales */ 
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #111;
+    margin: 30px auto;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+.section p, .section li {
+    font-size: 1.1rem;
+    color: #ccc;
+
+}
+ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+
+}
+/* Caja de transmisiones */ 
+.stream-box {
+    border: 2px dashed white;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    color: #aaa;
+}
+/* redes sociales */
+.incons a {
+    margin: 10px 15px;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #ffffff, #000000);
+    color: black;
+    border-radius: 8px;
+    text-decoration: nome;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    display: inline-block; 
+
+}
+.incons a:hover {
+    transform: scale(1.05);
+    background: #fff;
+    color: #000;
+}
+/* Pie de pagina */ 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
